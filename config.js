@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Grega",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Boš moj Valentin? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,35 +22,35 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Me ljubiš? 💘",                                    // First interaction
+            yesBtn: "Ja",                                             // Text for "Yes" button
+            noBtn: "Ne",                                               // Text for "No" button
+            secretAnswer: "Ne samo da te ljubim… OBOŽUJEM TE! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Koliko me ljubiš? 😌💘",                          // For the love meter
+            startText: "Toliko, da ne gre več! ❤️",                                   // Text before the percentage
+            nextBtn: "Ajde naprej"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Boš moj valentin 14. februarja 2025? 🌹", // The big question!
+            yesBtn: "Itak 😍",                                             // Text for "Yes" button
+            noBtn: "Ne (če upaš) 😅"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "AHA! Ti mene res noro ljubiš! 😳🚀💝",  // Shows when they go past 5000%
+        high: "Do neskončnosti in še dlje! 🚀💞",              // Shows when they go past 1000%
+        normal: "Okej… to je kar konkretno 😄❤️"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "JAAAA! 💞 Najsrečnejša sem! 🎉💖",
+        message: "Zdaj pa pridi po nagrado: en velik objem in en OGROMEN poljub 😘 P.S. Rezervacija za večerjo je že narejena… 🍽️🌹",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
